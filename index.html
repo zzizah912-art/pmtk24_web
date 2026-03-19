@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Math Journey 24</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>📘 Math Journey 24</h1>
+    <p>Belajar Matematika, Terstruktur & Elegan ✨</p>
+  </header>
+
+  <main class="container">
+
+   <!-- Absensi Mahasiswa -->
+<section class="card">
+  <h2>📝 Dashboard Absensi Mahasiswa</h2>
+  <p>Klik tombol hadir untuk masing-masing mahasiswa</p>
+
+  <div class="attendance-list" id="attendanceList">
+    <!-- Diisi oleh JavaScript -->
+  </div>
+</section>
+
+    <!-- Daftar Mata Kuliah -->
+<section class="card">
+  <h2>📚 Daftar Mata Kuliah</h2>
+
+  <div class="course-grid">
+
+    <div class="course-card">
+      <h3>Bahasa Indonesia</h3>
+      <p>Jum'at | 12:40 - 13:50</p>
+      <p>Dosen: Festian Cindarbumi, S.Pd., M.Pd</p>
+      <p>Ruang: FIK9</p>
+      <h3>📝 Dashboard Absensi Mahasiswa</h3>
+  <p>Klik tombol hadir untuk masing-masing mahasiswa</p>
+
+  <div class="attendance-list" id="attendanceList">
+    <!-- Diisi oleh JavaScript -->
+    </div>
+
+    <div class="course-card">
+      <h3>Bahasa Inggris</h3>
+      <p>Selasa | 13:15 - 14:25</p>
+      <p>Dosen: Ainu Zumrudiana, M.Pd</p>
+      <p>Ruang: F9</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Evaluasi Pembelajaran</h3>
+      <p>Senin | 12:05 - 13:50</p>
+      <p>Dosen: Anisa Fitri, S.Pd., M.Pd</p>
+      <p>Ruang: FIK9</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Filsafat Ilmu</h3>
+      <p>Rabu | 07:25 - 08:35</p>
+      <p>Dosen: Festian Cindarbumi, S.Pd., M.Pd</p>
+      <p>Ruang: F9</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Kewarganegaraan</h3>
+      <p>Rabu | 08:37 - 09:45</p>
+      <p>Dosen: Festian Cindarbumi, S.Pd., M.Pd</p>
+      <p>Ruang: F8</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Media Pembelajaran</h3>
+      <p>Selasa | 14:25 - 16:10</p>
+      <p>Dosen: Astrid Chandra Sari, M.Pd</p>
+      <p>Ruang: Microteaching</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Struktur Aljabar</h3>
+      <p>Senin | 09:10 - 10:55</p>
+      <p>Dosen: M. Husen Al Farisy, S.Mat., M.Sc</p>
+      <p>Ruang: F4</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Teknologi Pendidikan</h3>
+      <p>Selasa | 09:45 - 10:55</p>
+      <p>Dosen: Festian Cindarbumi, S.Pd., M.Pd</p>
+      <p>Ruang: F6</p>
+    </div>
+
+    <div class="course-card">
+      <h3>Teori Bilangan</h3>
+      <p>Jum'at | 09:10 - 10:55</p>
+      <p>Dosen: Festian Cindarbumi, S.Pd., M.Pd</p>
+      <p>Ruang: Microteaching</p>
+    </div>
+
+  </div>
+</section>
+
+    <!-- Tugas -->
+    <section class="card">
+      <h2>📌 Rincian Tugas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Mata Kuliah</th>
+            <th>Tugas</th>
+            <th>Deadline</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Kalkulus</td>
+            <td>Integral Lipat</td>
+            <td>10 Feb 2026</td>
+          </tr>
+          <tr>
+            <td>Statistika</td>
+            <td>Distribusi Normal</td>
+            <td>12 Feb 2026</td>
+          </tr>
+          <tr>
+            <td>Riset Operasi</td>
+            <td>Metode Simpleks</td>
+            <td>15 Feb 2026</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Kalender / Progress -->
+    <section class="card">
+      <h2>📆 Progress Belajar</h2>
+      <p>Target Mingguan</p>
+      <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+      </div>
+      <button class="btn-secondary" onclick="tambahProgress()">Tambah Progress</button>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Math Journey 24 • Built with ❤️ & Matematika</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
